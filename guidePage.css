@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background: #000814;
+  color: #fff;
+}
+.guidepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh;  */
+  padding-top: 100px;
+  margin: 0;
+  color: #fff;
+}
+
+.guidepage .light-box-1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1rem;
+  position: relative;
+  margin: 0rem;
+  padding: 0rem;
+  width: 100%;
+
+  /* border: 1px solid #616060; */
+  /* background-color: #000;
+  box-shadow: 0px 0px 50px rgba(12, 98, 135, 0.663);  */
+}
+
+.guidepage .light-box-1 h1 {
+  font-family: "Poppins";
+  /* font-size: 2em; */
+  margin: 10px;
+  font-size: 2em; /* Default font size */
+  color: #fff;
+}
+.guidepage .light-box-1 h2 {
+  font-size: 1.5em;
+  margin: 10px;
+  color: #fff;
+}
+
+.guidepage .light-box-1 span {
+  background: linear-gradient(to bottom, #01c5fb, #00c5fc, #63f963);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+
+.guidepage .light-box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1rem;
+  position: relative;
+  margin: 5rem;
+  padding: 2rem;
+  border: 1px solid #616060;
+  width: 75%;
+  background: #000;
+  box-shadow: 0px 0px 50px rgba(12, 98, 135, 0.663); /* Blue shadow */
+  overflow: hidden;
+}
+
+.guidepage .claim-question p {
+  color: #dcdcdc;
+  background: #000;
+}
+
+.guidepage .guidepage .light-box h1 {
+  font-family: "Poppins";
+  /* font-size: 2em; */
+  /* margin: 10px; */
+  font-size: 2em; /* Default font size */
+  background: linear-gradient(to bottom, #01c5fb, #00c5fc, #63f963);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text; /* For webkit-based browsers like Chrome and Safari */
+  background-clip: text;
+}
+.guidepage .light-box h2 {
+  font-size: 1.5em;
+  margin: 20px;
+  background: linear-gradient(to bottom, #4c77f7, #926192);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text; /* For webkit-based browsers like Chrome and Safari */
+  background-clip: text;
+}
+
+.guidepage .claim-question {
+  margin-top: 30px;
+  background: #000;
+}
+
+.guidepage .claim-question a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff; /* Optional: Change link color */
+  background: #000;
+}
+
+.guidepage .claim-question a:hover {
+  position: relative;
+  transform: scale(1.1);
+  font-weight: bold;
+  transition: transform 0.2s ease, font-weight 0.2s ease;
+}
+
+.guidepage .offer {
+  color: #dcdcdc;
+  background: #000;
+}
+.guidepage .note {
+  color: #605f5f;
+  background: #000;
+}
+
+.guidepage .security-code {
+  font-weight: 800;
+  background: linear-gradient(to bottom, #ffd700, #ffa500);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text; /* For webkit-based browsers like Chrome and Safari */
+  background-clip: text;
+}
+
+/*************************************************************************************
+************       fliping button         ********************
+*************************************************************************************/
+/* styles.css */
+
+.guidepage .backButton {
+  margin-bottom: 3rem;
+  opacity: 0.5;
+  background: #1946fc;
+  background: rgba(12, 98, 135, 0.663);
+  outline: 0;
+  color: #fff;
+  padding: 10px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  perspective: 1000px;
+}
+
+.guidepage .backButton .btn-flip:hover:after {
+  opacity: 1;
+  color: #fff;
+  background: #000;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transform: translateY(0) rotateX(0);
+}
+
+.guidepage .backButton .btn-flip:hover:before {
+  opacity: 0;
+  transform: translateY(50%) rotateX(90deg);
+}
+
+.guidepage .backButton .btn-flip:after {
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  color: #323237;
+  display: block;
+  transition: 0.5s;
+  position: absolute;
+  background: #adadaf;
+  content: attr(data-back);
+  transform: translateY(-50%) rotateX(90deg);
+  transform-origin: top center;
+  color: #fff;
+  background: #000;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.guidepage .backButton .btn-flip:before {
+  top: 0;
+  left: 0;
+  opacity: 1;
+  color: #ffffff;
+  display: block;
+  padding: 0 30px;
+  line-height: 40px;
+  transition: 0.5s;
+  position: relative;
+  background: #323237;
+  content: attr(data-front);
+  transform: translateY(0) rotateX(0);
+  transform-origin: top center;
+  color: #fff;
+  background: #000;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
