@@ -26,3 +26,12 @@ Contributions are always welcome!
   <b> 🌴🎄🌳🌲 ⭐💖 - GuidePage Step 2 - 💖⭐ 🌲🌳🎄🌴 </b>
 </p>
 ![Screenshot (751)](https://github.com/Pavankumar-Mhaske/GuidePage-For-Projects/assets/104865937/7e8bf8fd-8b65-42de-bbad-fc5fb8608797)
+
+
+## Used By
+
+This project is used by the following companies:
+
+- SmaDuleX
+
+
