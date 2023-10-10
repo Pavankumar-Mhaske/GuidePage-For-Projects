@@ -27,7 +27,6 @@ Contributions are always welcome!
 </p>
 ![Screenshot (751)](https://github.com/Pavankumar-Mhaske/GuidePage-For-Projects/assets/104865937/7e8bf8fd-8b65-42de-bbad-fc5fb8608797)
 
-
 ## Used By
 
 This project is used by the following companies:
@@ -38,13 +37,11 @@ This project is used by the following companies:
 
 For support, Give stars to the project... https://github.com/Pavankumar-Mhaske/SmaDuleX
 
-
 ## Feedback
 
 If you have any feedback, please reach out to us at mhaskepavankumar@gmial.com
 
 ## 👋🏻✍🏻🤟🏻🙌🏻🙏🏻👏🏻🤟🏻🙌🏻👏🏻🤟🏻🙏🏻🙌🏻👏🏻🤟🏻🙌🏻🙏🏻🤟🏻👏🏻🙌🏻🙏🏻🤟🏻👏🏻🙌🏻🙏🏻🙏🏻
-
 
 ## 🚀 About Me
 
@@ -54,11 +51,8 @@ If you have any feedback, please reach out to us at mhaskepavankumar@gmial.com
 
 [![Github](https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pavankumar-Mhaske/)
 
-
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/feed/)
 
 [![Instagram](https://img.shields.io/badge/Instagram-FFC0CB?style=for-the-badge&logo=instagram&logoColor=#f026e9)](https://www.instagram.com/p1mhaske1.618/)
 
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/PavankumarMhas1/)
-
-<!-- link: added Github link 🔗 -->
