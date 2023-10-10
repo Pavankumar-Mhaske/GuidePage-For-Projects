@@ -34,4 +34,7 @@ This project is used by the following companies:
 
 - SmaDuleX
 
+## Support
+
+For support, Give stars to the project... https://github.com/Pavankumar-Mhaske/SmaDuleX
 
