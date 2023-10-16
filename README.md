@@ -24,6 +24,8 @@ Contributions are always welcome!
 
 [tailwindCSS](https://tailwindcss.com/)
 
+[React-Icons](https://react-icons.github.io/react-icons)
+
 ## 📸 Screenshots 📷🎥
 
 <p align="center">
